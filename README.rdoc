@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Howdy ho, neighbor!
 
-Things you may want to cover:
+Here's a quick rundown on how to get started with this thing if you want to run your own copy or whatever.
 
-* Ruby version
+Fortunately, it's pretty straightforward.
 
-* System dependencies
+This was written with ruby 2.2.1 and Rails 4.2.1. If you don't already have those things, go get RVM and get your ruby
+environment all nice and setup and whatnot. You might be able to get it to work with other versions of those things. I
+don't know.
 
-* Configuration
+Anyway, you ought to be able to just <tt>git clone</tt> this repo, move into the root directory and run <tt>bundle</tt> and then
+<tt>rails server</tt>.
 
-* Database creation
+Ta-da!
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+If you have any trouble, please, don't be afraid to shoot me a message. I want it to work for you just as much as you do!
