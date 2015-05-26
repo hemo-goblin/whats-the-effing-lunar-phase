@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>What's the fucking lunar phase?</title>
+    </head>
+    <body>
+        <div class="lunarPhase exclamation">
+            <h1><%= raw @exclamation %></h1>
+        </div>
+
+        <div class="lunarPhase looksLike">
+          <h2>It looks like tonight's moon is a...</h2>
+        </div>
+
+        <div class="lunarPhase name">
+          <h3><%= @lunarPhase %></h3>
+        </div>
+
+        <img class="lunarPhase icon" src='<%= asset_path @iconName %>'/>
+
+        <div id="quote">
+          <%= raw @quote %>
+        </div>
+    </body>
+</html>

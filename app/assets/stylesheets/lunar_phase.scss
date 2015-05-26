@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Muli:400,300italic);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1; }
+}
+
+body {
+  background-image: asset-data-url('stardust.png');
+}
+
+.lunarPhase {
+  font-family: 'Muli', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.lunarPhase.exclamation {
+  color: #F9DF8D;
+  font-size: 1.35cm;
+
+  animation-delay: 0.7s
+}
+
+.lunarPhase.looksLike {
+  color: #F9DF8D;
+  font-size: 1.35cm;
+
+  animation-delay: 1.2s;
+}
+
+.lunarPhase.name {
+  color: #FFD452;
+  font-size: 1.0cm;
+
+  animation-delay: 1.6s;
+}
+
+.lunarPhase.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1cm;
+  padding-bottom: 2cm;
+  width: 5cm;
+  height: 5cm;
+
+  animation-delay: 2s;
+}
+
+#quote {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 45px;
+  line-height: 45px;
+  width: 100%;
+  background: #8E8D80;
+}
