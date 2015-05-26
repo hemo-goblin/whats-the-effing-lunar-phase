@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Muli:400,300italic);
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1; }
-}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
 body {
   background-image: asset-data-url('stardust.png');
@@ -18,16 +14,29 @@ body {
   vertical-align: middle;
 
   opacity: 0;
+
   animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
   animation-duration: 1s;
+
+  -webkit-animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+
+  -moz-animation: fadeIn ease-in 1;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-duration: 1s;
 }
 
 .lunarPhase.exclamation {
   color: #F9DF8D;
   font-size: 1.35cm;
 
-  animation-delay: 0.7s
+  animation-delay: 0.7s;
+
+  -webkit-animation-delay: 0.7s;
+
+  -moz-animation-delay: 0.7s;
 }
 
 .lunarPhase.looksLike {
@@ -35,6 +44,10 @@ body {
   font-size: 1.35cm;
 
   animation-delay: 1.2s;
+
+  -webkit-animation-delay: 1.2s;
+
+  -moz-animation-delay: 1.2s;
 }
 
 .lunarPhase.name {
@@ -42,6 +55,10 @@ body {
   font-size: 1.0cm;
 
   animation-delay: 1.6s;
+
+  -webkit-animation-delay: 1.6s;
+
+  -moz-animation-delay: 1.6s;
 }
 
 .lunarPhase.icon {
@@ -54,6 +71,10 @@ body {
   height: 5cm;
 
   animation-delay: 2s;
+
+  -webkit-animation-delay: 2s;
+
+  -moz-animation-delay: 2s;
 }
 
 #quote {
