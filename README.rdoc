@@ -1,4 +1,5 @@
 == README
+=== This project has been deprecated in favor of LunarPhaseKt, a Kotlin+Spring Boot reimplementation. This was mostly to ease deployment because setting ruby+rails+this app+dependencies is sort of a hassle whereas the other way I can supply a JAR, the two .txt files, and a script and/or batch file.
 
 Howdy ho, neighbor!
 
