@@ -6,7 +6,7 @@ Here's a quick rundown on how to get started with this thing if you want to run 
 
 Fortunately, it's pretty straightforward.
 
-This was written with ruby 2.2.1 and Rails 4.2.1. If you don't already have those things, go get RVM and get your ruby
+This was written with ruby 2.4.1 and Rails 5.1.6. If you don't already have those things, go get RVM and get your ruby
 environment all nice and setup and whatnot. You might be able to get it to work with other versions of those things. I
 don't know.
 

@@ -94,7 +94,7 @@ module LunarPhaseHelper
   ##
   def lunarPhaseFromJulianDate(julianDate)
     # The difference between the Julian Date tonight and the base
-    julianDifference = julianDate - BASE_NEW_MOON_DATE
+    julianDifference = julianDate - BASE_NEW_MOON_DATE - 1
 
     # If the difference is less than zero (meaning it is somehow before January 6, 2000) then just add the length of
     # a lunar cycle, because the negative number is just the amount of Julian time before the next new moon.
